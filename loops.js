@@ -22,9 +22,9 @@ function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
-function doWhileLoop(arr) {
+function doWhileLoop(array) {
   do {
-    arr.pop();
+    array.pop();
   }
-  while ((arr.length > 0) && maybeTrue());
+  while ((array.length > 0) && maybeTrue());
 }
